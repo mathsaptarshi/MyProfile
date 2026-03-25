@@ -1,0 +1,146 @@
+{
+  "personal_details": {
+    "name": "Saptarshi Biswas",
+    "email": "mathsaptarshi@gmail.com",
+    "mobile": "8926308294",
+    "address": "Banashree para, S.K.Basu Road, Krishnanagar, Dist-Nadia, 741101",
+    "live_in": "Kolkata, Kolkata 700059",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "date_of_birth": "22.10.1993",
+    "father_name": "Bikash Chandra Biswas",
+    "languages_known": [
+      "English (Read, Write, Speak)",
+      "Bengali (Read, Write, Speak)",
+      "Hindi (Read, Speak)"
+    ]
+  },
+  "career_objective": "Experienced senior software Engineer with a demonstrated history of working in the software industry, looking to pursue a challenging career in a progressive organization to enhance knowledge and utilize skills for organizational growth.",
+  "job_experience": [
+    {
+      "company": "Infosys Limited",
+      "designation": "Senior Associate Consultant",
+      "duration": "12 Aug 2024 to Present",
+      "projects": [
+        {
+          "name": "Apple Inc. : Apple Supplier Care",
+          "duration": "August 2025 to Jan 2026",
+          "technologies": ["Angular 18", "Micro-frontend Architecture", "git", "AI Tools"],
+          "responsibilities": [
+            "Application Development",
+            "Coding, new feature implementation and enhancement",
+            "Integrate AI feature for summarise documents",
+            "Manage git for version control",
+            "Fixed npm vulnerabilities"
+          ]
+        },
+        {
+          "name": "The Hershey Company",
+          "technologies": ["Spartacus (Angular)", "Jasmine and Karma", "git"],
+          "responsibilities": [
+            "Requirement analysis, D2C project estimation, module development, and version upgrade",
+            "Coding, Unit Test case writing",
+            "Project estimation and B2B project development"
+          ]
+        },
+        {
+          "name": "AVON (Ecommerce Application)",
+          "duration": "Aug 2024 to Apr 2025",
+          "technologies": ["Angular", "Magnolia", "HTML", "CSS", "JavaScript", "SQL"],
+          "responsibilities": [
+            "Coding, new feature implementation and enhancement",
+            "Fraud order detection in different countries",
+            "Password functionality enhancement",
+            "Project estimation, technical supports",
+            "Prepare POC for client"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "V Software Consulting Pvt. Ltd.",
+      "designation": "Sr Software Developer",
+      "duration": "12 Apr 2021 to 25 July 2024",
+      "projects": [
+        {
+          "name": "Halliburton (MAXCommand, MaxActivity, MAXRAdvisor, etc.)",
+          "technologies": ["Angular 2+", "Node.js", "Express", "Apache Echart", "Postgresql", "MongoDB", "NgRx", ".Net"],
+          "responsibilities": [
+            "Engaged in all phases of project development from analysis to deployment",
+            "Developed project architecture and implemented SSO",
+            "Optimized memory usage and created RESTful APIs",
+            "Utilized Docker containers and supported deployment processes",
+            "Halliburton EchartBook: Managed entire lifecycle from analysis to deployment"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "WebGuru Infosystems Pvt. Ltd.",
+      "designation": "Web Application Developer",
+      "duration": "09 Dec 2019 to 17 Aug 2020",
+      "responsibilities": [
+        "Full stack development using MongoDB, Postgresql, NodeJS and Angular",
+        "Projects for Calcutta University and Brainware University",
+        "Web application setup in AWS (EC2, Route53, RDS)",
+        "Integrate PayPal and stripe payment gateways"
+      ]
+    },
+    {
+      "company": "SASA Infotech Pvt. Ltd.",
+      "designation": "Software Developer",
+      "duration": "21 Nov 2018 to 18 Oct 2019",
+      "responsibilities": [
+        "Dynamic Admin-portal development in Reactjs and API in NodeJs",
+        "Worked in PHP and MySQL",
+        "Projects: Perth boat school, Coxswain"
+      ]
+    }
+  ],
+  "it_skills": {
+    "programming_languages": ["JavaScript", "TypeScript", "HTML5", "CSS", "Python (Beginner)"],
+    "frameworks": ["Angular", "Material UI", "node js", "Express", "Apache Echart", "React (Beginner)"],
+    "version_control": ["GIT", "Bitbucket", "Azure Devops"],
+    "project_management": ["Atlassian", "Azure Devops", "AWS (EC2, Route53, RDS)"],
+    "tools": ["Putty", "Postman", "SourceTree", "Confluence", "PostgreSQL", "Firebase", "Jira"]
+  },
+  "educational_qualification": [
+    {
+      "examination": "Master’s (MCA)",
+      "institution": "Brainware University",
+      "year": "2016 - 2019",
+      "percentage_cgpa": "83.82%"
+    },
+    {
+      "examination": "Graduation in Maths(Hons)",
+      "institution": "WBSU (Ramakrishna Mission Vivekananda Centenary College)",
+      "year": "2012 - 2016",
+      "percentage_cgpa": "50.63%"
+    },
+    {
+      "examination": "12th (10+2)",
+      "institution": "WBCHSE",
+      "year": "2012",
+      "percentage_cgpa": "66%"
+    },
+    {
+      "examination": "10th",
+      "institution": "WBBSE",
+      "year": "2010",
+      "percentage_cgpa": "78.5%"
+    }
+  ],
+  "certifications_and_workshops": [
+    {
+      "type": "Certificate Course",
+      "name": "Programming, Data Structures and Algorithm using Python",
+      "conducted_by": "NPTEL - IIT Madras"
+    },
+    {
+      "type": "Workshop",
+      "name": "NodeJS",
+      "conducted_by": "Ardent Computech Pvt. Ltd."
+    }
+  ],
+  "extra_curricular": ["Playing Guitar", "Playing Chess"]
+}

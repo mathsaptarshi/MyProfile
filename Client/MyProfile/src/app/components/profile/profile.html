@@ -1,0 +1,68 @@
+@if(profileData()){
+<div class="profile-container">
+  <!-- Left Sidebar: Personal Info -->
+  <aside class="sidebar">
+    <div class="profile-header">
+      <div class="avatar">{{ profileData()!.personal_details.name[0] }}</div>
+      <h1>{{ profileData()!.personal_details.name }}</h1>
+      <p class="designation">{{ profileData()!.job_experience[0].designation }}</p>
+    </div>
+
+    <div class="info-section">
+      <h3>Contact</h3>
+      <ul>
+        <li><i class="icon-mail"></i> {{ profileData()!.personal_details.email }}</li>
+        <li><i class="icon-phone"></i> {{ profileData()!.personal_details.mobile }}</li>
+        <li><i class="icon-location"></i> {{ profileData()!.personal_details.live_in }}</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h3>Skills</h3>
+      <!-- <div class="skill-tags">
+        <span *ngFor="let skill of profileData()!.it_skills.programming_languages" class        <span *ngFor="let skill of profileData()!.it_skills.programming_languages" class        <span *ngFor="ag        <s">{{ frame        <span *ngFor="leiv>-->
+    </div> 
+  </aside>
+
+  <!-- Right Main Content -->
+  <main class="main-content">
+    <!-- <section class=    <section class=    <section class=    <section class=    <sectiojective }}</p>
+    </section> -->
+<!-- 
+    <section class="card">
+      <h2>      <h2>      <h2>      <h2>      <h2>      <h2>      <h2>      <h2>   -item" *ngFor="let job       <h2>      <.job_experienc      <h2>    <div class="time">{{ job.duration }}</div>
+          <div class="content">
+            <h4>{{ job.designati            <h4>{{ job.designati            <h4>{{ job.designati           roject of job.            <h4>{{ job.designati            <h4>{{ job.designati            <h4>{{ j      <p *ngIf="project.technologies" class="tech-stack">
+                <strong>Tech                <sect.technolog                <strong>Tech                <sect.technolog                <strong>Tech                <sect.technolog                <strong>Tech                <sect.technolog                <strong>Tech                <sect.technolog        ection class="card">
+      <h2>Education</h2>
+      <div class="education-list">
+        <div class="edu-item" *ngFor="let edu of profileData()!.educational_qualification">
+          <h4>{{ edu.examination     h4>
+          <p>{{ edu.institution }} - {{ edu.year }}</p>
+          <span class="grade">{{ edu.percentage_cgpa }}</span>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="card">
+      <h2>Certificatio      <h2>Certificati     <div class="certifications-list">
+        <div class="cert-item" *ngFor="let cert of profileData()!.certifications_and_workshops">
+          <h4>{{ cert.name }}</h4>
+          <p>{{ cert.type }} - {{ cert.conducted_by }}</p>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="card">
+      <h2>Extra Curricular</h2>
+      <ul class="extra-curricular-list">
+        <li *ngFor="let activity of profileData()!.extra_curricular">{{ activity }}</li>
+      </ul>
+    </section>
+  </main>
+</div>
+} @else {
+  <div class="loading">
+    <p>Loading profile data...</p>
+  </div>
+}

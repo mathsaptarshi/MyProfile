@@ -1,0 +1,121 @@
+$primary: #2563eb;
+$bg-light: #f8fafc;
+$text-dark: #1e293b;
+$text-muted: #64748b;
+$white: #ffffff;
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+  color: $text-dark;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Sidebar Styling
+.sidebar {
+  background: $white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+
+  .profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      background: $primary;
+      color: white;
+      font-size: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+    }
+
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .designation { color: $primary; font-weight: 600; }
+  }
+
+  .info-section {
+    margin-bottom: 2rem;
+    h3 { font-size: 1.1rem; border-bottom: 2px solid $bg-light; padding-bottom: 0.5rem; }
+    ul { list-style: none; padding: 0; li { margin: 0.8rem 0; color: $text-muted; } }
+  }
+
+  .tag {
+    display: inline-block;
+    background: $bg-light;
+    padding: 0.3rem 0.8rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    margin: 0.2rem;
+    &.framework { background: rgba($primary, 0.1); color: $primary; }
+  }
+}
+
+// Main Content
+.card {
+  background: $white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  h2 { margin-bottom: 1.5rem; color: $primary; font-size: 1.4rem; }
+}
+
+.timeline {
+  border-left: 2px solid $bg-light;
+  padding-left: 1.5rem;
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -21px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      background: $primary;
+      border-radius: 50%;
+    }
+
+    .time { font-size: 0.85rem; color: $text-muted; margin-bottom: 0.5rem; }
+    h4 { margin: 0.5rem 0; span { color: $primary; } }
+  }
+}
+
+.project-detail {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 1px dashed $text-muted;
+  h5 { color: $text-dark; margin-bottom: 0.3rem; }
+  .tech-stack { font-size: 0.85rem; color: $text-muted; }
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  .edu-item {
+    display: flex;
+    flex-direction: column;
+    strong { color: $text-dark; }
+    span { color: $text-muted; font-size: 0.9rem; }
+  }
+}
